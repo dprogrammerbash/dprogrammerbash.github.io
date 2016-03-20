@@ -1,0 +1,22 @@
+html {
+	margin: 0px;
+	padding: 0px;
+	font-family: monospace;
+}
+
+body {
+	background-color: #FEFFFF;
+	color: #202020;
+	font-size: 1rem;
+	margin: 2% 8% 2% 8%;
+}
+
+a, a:visited {
+	text-decoration: none;
+	color: #151515;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #674142;
+}
