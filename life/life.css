@@ -1,0 +1,24 @@
+html {
+	padding: 0;
+	margin: 0;
+	background-color: #FAFAFA;
+	font-family: 'monospace';
+	color: #151515;
+	font-size: 1.4em;
+}
+
+div {
+	text-align: center;
+}
+
+h2 {
+	margin: 5px;
+}
+
+#canvas{
+	padding: 5px;
+}
+
+#footer {
+	font-size: 0.5em;
+}

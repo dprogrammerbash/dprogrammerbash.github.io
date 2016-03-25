@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>What do you do with your life?</title>
+    <link rel="stylesheet" href="life.css">
+</head>
+<body>
+	<div id="content">
+		<div id="header">
+			<h2>What are you going to do with your life?</h2>
+			<div id="inputs">
+				<label for="birthday">Birthday: </label>
+				<input type="date" id="birthday" name="birthday"></input>
+				<button onClick="main();">Submit</button>
+			</div>
+		</div>
+		<div id="canvas">
+			<canvas id="chart">Your navegator doesn't support canvas.</canvas>
+		</div>
+		<div id="footer">Every circle represent one week of your life assuming you will live ninety years, one row per year.</div>
+		<script src="life.js"></script>
+	</div>
+</body>
+</html>
